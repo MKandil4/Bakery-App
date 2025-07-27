@@ -1,0 +1,331 @@
+/*UNV - Selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------------------------------------*/
+/*Navbar Section*/
+.navbar {
+  /* background-color: rgb(0, 255, 60); */
+  padding: 20px 70px;
+}
+.navbar .nav-logo {
+  /* background-color: coral; */
+  width: fit-content;
+  float: left;
+}
+.navbar .nav-logo img {
+  width: 150px;
+}
+.navbar .nav-links {
+  /* background-color: blue; */
+  width: fit-content;
+  float: right;
+  margin-top: 15px;
+}
+.navbar .nav-links li {
+  float: left;
+  list-style: none;
+}
+.navbar .nav-links li a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 20px;
+  &:hover {
+    color: #8e7754;
+  }
+}
+.clear-fix {
+  clear: both;
+}
+/*------------------------------------------------*/
+/*Home Section*/
+.home {
+  min-height: 100%;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+.home-content {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 150px 0;
+  color: white;
+}
+.home-content h1,
+p {
+  margin: 20px 0;
+}
+.home-content button {
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.home-content .btn-learn {
+  margin-right: 10px;
+  background-color: #8e7754;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}
+.home-content .btn-contact {
+  background-color: transparent;
+  border: 1px solid white;
+  &:hover {
+    background-color: #8e7754;
+    color: white;
+  }
+}
+/*------------------------------------------------*/
+/*Who we are Section*/
+.Who-we-are {
+  /* background-color: red; */
+  padding: 50px;
+  text-align: center;
+}
+.Who-we-are-img {
+  /* background-color: green; */
+  width: 500px;
+  display: inline-block;
+  margin-left: 70px;
+}
+.Who-we-are-img img {
+  width: 100%;
+}
+.Who-we-are-content {
+  /* background-color: blue; */
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+  margin: 30px 70px;
+  text-align: start;
+}
+.Who-we-are-content li {
+  list-style: none;
+}
+.Who-we-are-content li i {
+  margin-right: 10px;
+}
+
+/*------------------------------------------------*/
+/*Our Location Section*/
+.our-location {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+.our-location-content {
+  /* background-color: red; */
+  width: 600px;
+  display: inline-block;
+  padding: 30px;
+  margin: 30px 70px;
+  vertical-align: middle;
+}
+
+.our-location-img {
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.our-location-img img {
+  width: 100%;
+}
+/*------------------------------------------------*/
+
+/*our-baking*/
+.our-baking {
+  /* background-color: red; */
+  padding: 40px 0;
+  margin-top: 20px;
+}
+.our-baking .heading {
+  text-align: center;
+}
+.our-baking .heading h2 {
+  text-transform: capitalize;
+}
+.items {
+  margin: 40px;
+}
+.our-baking .item {
+  width: 400px;
+  text-align: center;
+  float: left;
+  margin: 40px;
+}
+.clear-fix {
+  clear: both;
+}
+
+.our-baking .item img {
+  width: 100%;
+}
+
+.our-baking .items .item h3 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+/*------------------------------------------------*/
+
+/* Contact Information Section */
+.contact-information {
+  background-color: #f8f8f8;
+  /* margin: 20px 0; */
+  padding: 50px;
+}
+.contact-information .contact {
+  /* background-color: chocolate; */
+  width: 600px;
+  float: left;
+  margin: 40px;
+  padding: 30px;
+}
+.contact-information .contact h3 {
+  text-transform: capitalize;
+}
+.contact-information .contact p {
+  /* background-color: red; */
+  margin: 20px 0;
+  line-height: 1.6;
+}
+.contact-information .contact h4 {
+  margin: 25px 0;
+}
+.contact-information .contact tr td {
+  /* background-color: yellow; */
+  padding: 5px;
+}
+.contact-information .contact i {
+  /* background-color: blue; */
+  margin-right: 10px;
+}
+.contact-information .map {
+  /* background-color: coral; */
+  width: 300px;
+  float: left;
+}
+.clear-fix {
+  clear: both;
+}
+/*------------------------------------------------*/
+
+/*Footer Section*/
+.footer {
+  background-color: #403d38;
+  color: #8c8a86;
+  background-image: url(../images/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.footer .about .about-item {
+  padding: 50px;
+  width: 25%;
+  float: left;
+}
+.footer .about .about-item p {
+  line-height: 1.6;
+}
+.footer .about .about-item ul li {
+  list-style: none;
+  padding-right: 10px;
+}
+.footer .about .about-item ul li i {
+  padding-right: 10px;
+}
+.last span {
+  /* background-color: red; */
+  margin-left: 25px;
+}
+.clear-fix {
+  clear: both;
+}
+
+.footer .copyright {
+  background-color: #353330;
+  text-align: center;
+  padding: 30px;
+}
+.footer .copyright p {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #8c8a86;
+}
+
+.footer .social-media i {
+  background-color: #484540;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #8c8a86;
+  margin-right: 5px;
+}
+
+.footer .social-media i.facebook {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #4267b2;
+  }
+}
+
+.footer .social-media i.google {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #db4437;
+  }
+}
+
+.footer .social-media i.linkedin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0a66c2;
+  }
+}
+
+.footer .social-media i.twitter {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+  &:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #1da1f2;
+  }
+}
+/*------------------------------------------------*/
